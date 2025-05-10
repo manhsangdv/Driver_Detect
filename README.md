@@ -15,7 +15,7 @@ Hệ thống phát hiện hành vi của tài xế sử dụng Computer Vision, 
 
 1. Clone repository này:
 ```bash
-git clone https://github.com/YOUR_USERNAME/Driver_Detect.git
+git clone https://github.com/manhsangdv/Driver_Detect.git
 cd Driver_Detect
 ```
 
@@ -83,10 +83,4 @@ python test.py
   * `HEAD_TURN_THRESHOLD`: Ngưỡng góc quay đầu
   * `PHONE_CONFIDENCE`: Ngưỡng tin cậy cho phát hiện điện thoại
 
-## License
 
-[MIT License](LICENSE)
-
-## Liên Hệ
-
-Nếu bạn có bất kỳ câu hỏi hoặc góp ý nào, vui lòng tạo issue trong repository này.
