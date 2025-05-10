@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+
+# Models folder (if too large)
+models/*.pt
+models/*.dat
+
+# IDE
+.vscode/
+.idea/
+
+# Other
+.DS_Store
