@@ -191,7 +191,7 @@ while True:
 
             # Phát hiện trạng thái buồn ngủ nếu EAR nhỏ hơn ngưỡng
             if ear < ALARM_THRESHOLD:
-                cv2.putText(frame, "DROWSY", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+                cv2.putText(frame, " ", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
                 buon_ngu_detected = True
 
             # Vẽ các điểm mốc màu xanh lá cây trên mắt từ Dlib
